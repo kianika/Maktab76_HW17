@@ -1,0 +1,122 @@
+body{
+  background-color: rgb(67, 66, 66);
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(244, 218, 21);
+  height: 15vh;
+  width: 100vw;
+}
+
+.yellow-icon{
+  width: 8px;
+  height: 14px;
+  background-color: yellow;
+}
+.yellow-icon-large {
+  width: 18px;
+  height: 24px;
+  background-color: yellow;
+}
+.description::placeholder{
+  text-align: right;
+}
+form{
+  height: 40vh;
+}
+
+table{
+  width: fit-content;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 0;
+}
+
+.modal .content {
+  background-color: white;
+  width:55%;
+  height: 75%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.modal-container {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 98%;
+  height: 90%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.list-container {
+  padding: 20px;
+}
+
+form {
+  background-color: rgb(54, 53, 53);
+}
+
+.first-row {
+  border-bottom: 1px solid gray;
+}
+
+.des, .del {
+  width: 110px;
+}
+
+input:focus { 
+  outline-color: #e1bb0f;
+ 
+}
+textarea:focus { 
+  outline-color: #e1bb0f !important;
+}
+
+select:focus {
+  outline-color: #e1bb0f !important;
+}
+
+input, select{
+  background-color: rgb(54, 53, 53);
+  text-align: right;
+}
+
+textarea{
+  background-color: rgb(54, 53, 53) !important;
+}
+.cancel{
+  background-color: rgb(54, 53, 53);
+}
+
