@@ -74,7 +74,7 @@ function App() {
             </div>
             <div>
               <textarea
-                className="form-control description text-secondary border border-light rounded p-2"
+                className="form-control description  border border-light rounded p-2"
                 rows="4"
                 placeholder="توضیحات درباره فیلم"
                 value={description}
