@@ -16,7 +16,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3004/movies/")
+    fetch(BASE_URL)
       .then((res) => res.json())
       .then((movies) => {
         setMovies(movies);
@@ -26,7 +26,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3004/movies/", {
+    fetch(BASE_URL, {
       method: "POST",
       body: JSON.stringify({
         id: uuid(),

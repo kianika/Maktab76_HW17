@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from "react";
+
 import ReactDOM from "react-dom";
 
 function Modal({ description, onClose }) {
-  const divRef = useRef(null);
+ 
 
   return ReactDOM.createPortal(
     <div className="modal">
