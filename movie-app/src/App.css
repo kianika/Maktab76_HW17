@@ -111,10 +111,12 @@ select:focus {
 input, select{
   background-color: rgb(54, 53, 53);
   text-align: right;
+  color: white;
 }
 
 textarea{
   background-color: rgb(54, 53, 53) !important;
+  color: white !important;
 }
 .cancel{
   background-color: rgb(54, 53, 53);
